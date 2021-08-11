@@ -1,0 +1,96 @@
+/*Responsive CSS*/
+
+@media screen and (max-width: 992px) {
+  .title-and-desc .head-line-of-headers {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title-and-desc .head-line-of-headers {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .title-and-desc .headline-under-text {
+    font-size: 20px;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title-and-desc .headline-under-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title-and-desc .get-started-button {
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .trusted-partner .company-logos {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .trusted-partner {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .girl-img img {
+    margin-top: -249px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .girl-img {
+    margin-left: -110px;
+  }
+  .girl-img img {
+    margin-left: 35px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #service .services-card-area .row .card-wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #counts .count-showing-number .single-count-card {
+    margin-bottom: 20px;
+  }
+  #counts .count-showing-number .single-count-card:first-child {
+    border-right: none;
+  }
+  #counts .count-showing-number .single-count-card:last-child {
+    border-left: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #testomonials .testomonials-card .logo-and-name {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #testomonials .testomonials-card {
+    text-align: left;
+  }
+  #testomonials .testomonials-card .logo-and-name {
+    margin: initial;
+  }
+}
